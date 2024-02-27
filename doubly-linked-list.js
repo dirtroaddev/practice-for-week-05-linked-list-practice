@@ -43,7 +43,7 @@ class DoublyLinkedList {
     while(temp.next !== null) {
       temp = temp.next;
     }
-
+    
     this.head.prev = null;
     temp.next = newNode;
     newNode.prev = temp;
